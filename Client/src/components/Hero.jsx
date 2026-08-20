@@ -2,19 +2,11 @@ function Hero() {
     return (
         <section className="hero">
 
-            {/* Animated background */}
+            {/* Animated SVG Geometric Pattern Background */}
             <div className="hero-bg" aria-hidden="true">
-                <span className="orb orb-1"></span>
-                <span className="orb orb-2"></span>
-                <span className="orb orb-3"></span>
-
-                <span className="ring ring-1"></span>
-                <span className="ring ring-2"></span>
-
-                <span className="dot dot-1"></span>
-                <span className="dot dot-2"></span>
-                <span className="dot dot-3"></span>
-                <span className="dot dot-4"></span>
+                <div className="pattern-layer pattern-1"></div>
+                <div className="pattern-layer pattern-2"></div>
+                <div className="radial-vignette"></div>
             </div>
 
             <div className="hero-content">
